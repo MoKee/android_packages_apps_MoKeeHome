@@ -1,4 +1,4 @@
-android_packages_apps_CMHome
+android_packages_apps_MoKeeHome
 ============================
 
-An extendable homescreen for use with CyanogenMod
+An extendable homescreen for use with MoKee OpenSource

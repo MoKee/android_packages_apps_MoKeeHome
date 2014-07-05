@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2014 The MoKee OpenSource Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := $(call all-subdir-java-files)
-LOCAL_MODULE := org.cyanogenmod.launcher.home
+LOCAL_MODULE := org.mokee.launcher.home
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 

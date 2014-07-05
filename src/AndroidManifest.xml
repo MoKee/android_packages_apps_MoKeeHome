@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2014 The CyanogenMod Project
+<!-- Copyright (C) 2014 The MoKee OpenSource Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
  -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.cyanogenmod.launcher.home"
+    package="org.mokee.launcher.home"
     android:versionCode="1"
     android:versionName="0.0.1">
 
@@ -29,10 +29,10 @@
         android:label="@string/app_name">
 
         <!-- Define the stub class that will be used as Home entry point -->
-        <meta-data android:name="com.android.launcher.home" android:value="org.cyanogenmod.launcher.home.HomeStub" />
+        <meta-data android:name="com.android.launcher.home" android:value="org.mokee.launcher.home.HomeStub" />
 
         <activity
-            android:name="org.cyanogenmod.launcher.home.HomeLauncher"
+            android:name="org.mokee.launcher.home.HomeLauncher"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar.TranslucentDecor"
             android:windowSoftInputMode="adjustResize|stateAlwaysHidden">
