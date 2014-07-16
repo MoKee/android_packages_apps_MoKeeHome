@@ -43,11 +43,11 @@ public class HomeStub implements Home {
     private static final String NO_EXTENSIONS_CARD_ID = "noExtensions";
     private HomeLayout mHomeLayout;
     private Context mHostActivityContext;
-    private Context mMKHomeContext;
+    private Context mMoKeeHomeContext;
     private boolean mShowContent = false;
     private SimpleMessageCard mNoExtensionsCard;
     private List<ICardProvider> mCardProviders = new ArrayList<ICardProvider>();
-    private MKHomeCardArrayAdapter mCardArrayAdapter;
+    private MoKeeHomeCardArrayAdapter mCardArrayAdapter;
 
     private HashMap<String, AsyncTask> mUpdateTasks = new HashMap<String, AsyncTask>();
 
@@ -73,7 +73,7 @@ public class HomeStub implements Home {
 
     @Override
     public void onStart(Context context) {
-        mMKHomeContext = context;
+        mMoKeeHomeContext = context;
         if(mShowContent) {
             // Add any providers we wish to include, if we should show content
             initProvidersIfNeeded(context);
@@ -240,7 +240,7 @@ public class HomeStub implements Home {
                 mTask.cancel(true);
             }
             AsyncTask<Void, Void, Card> newTask =
-                    new LoadSingleCardTask(cardId, mMKHomeContext);
+                    new LoadSingleCardTask(cardId, mMoKeeHomeContext);
             mUpdateTasks.put(cardId, newTask);
             newTask.execute();
         }
@@ -250,7 +250,7 @@ public class HomeStub implements Home {
         CardListView cardListView = (CardListView) mHomeLayout.findViewById(R.id.mk_home_cards_list);
         // Set CardArrayAdapter to an adapter with an empty list
         List<Card> cards = new ArrayList<Card>();
-        mCardArrayAdapter = new MKHomeCardArrayAdapter(context, cards);
+        mCardArrayAdapter = new MoKeeHomeCardArrayAdapter(context, cards);
         cardListView.setAdapter(mCardArrayAdapter);
     }
 
@@ -337,7 +337,7 @@ public class HomeStub implements Home {
             CardListView cardListView = (CardListView) mHomeLayout.findViewById(R.id.mk_home_cards_list);
 
             if(cardListView != null) {
-                mCardArrayAdapter = new MKHomeCardArrayAdapter(mContext, cards);
+                mCardArrayAdapter = new MoKeeHomeCardArrayAdapter(mContext, cards);
                 mCardArrayAdapter.setEnableUndo(true, mHomeLayout);
                 mCardArrayAdapter.
                         setSwipeDirection(SwipeDismissListViewTouchListener.SwipeDirection.RIGHT);
@@ -386,9 +386,9 @@ public class HomeStub implements Home {
         }
     }
 
-    public class MKHomeCardArrayAdapter extends CardArrayAdapter {
+    public class MoKeeHomeCardArrayAdapter extends CardArrayAdapter {
 
-        public MKHomeCardArrayAdapter(Context context, List<Card> cards) {
+        public MoKeeHomeCardArrayAdapter(Context context, List<Card> cards) {
             super(context, cards);
         }
 
