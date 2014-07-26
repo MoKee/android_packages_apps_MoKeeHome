@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-  <string name="app_name">CM Home</string>
+  <string name="app_name">MoKee Home</string>
   <string name="permission_desc_read_extension_data">Ermöglicht der App, DashClock-Erweiterungsdaten anzufordern</string>
   <string name="permission_label_read_extension_data">DashClock-Erweiterungsdaten anfordern</string>
   <string name="dashclock_card_expand_settings">Einstellungen</string>

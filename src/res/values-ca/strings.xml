@@ -16,12 +16,12 @@
      limitations under the License.
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-  <string name="app_name">Inici CM</string>
+  <string name="app_name">Inici MoKee</string>
   <string name="permission_desc_read_extension_data">Permet sol·licitar dades d\'extensió del DashClock</string>
   <string name="permission_label_read_extension_data">Sol·licita dades d\'extensió del DashClock</string>
   <string name="dashclock_activity_not_found_toast_message">L\'activitat prevista per a aquesta extensió no s\'ha trobat. Per a més informació contacta amb el desenvolupador.</string>
   <string name="dashclock_card_expand_action">Acció</string>
   <string name="dashclock_card_expand_settings">Configuració</string>
   <string name="no_extensions_card_title">Aconsegueix algunes extensions!</string>
-  <string name="no_extensions_card_body">Sembla que no tens cap extensió instal·lada. Inici CM actualment suporta les extensions de DashClock, així que pots obtenir-ne algunes i tornar a mirar aquí!</string>
+  <string name="no_extensions_card_body">Sembla que no tens cap extensió instal·lada. Inici MoKee actualment suporta les extensions de DashClock, així que pots obtenir-ne algunes i tornar a mirar aquí!</string>
 </resources>

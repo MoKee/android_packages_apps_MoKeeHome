@@ -16,12 +16,12 @@
      limitations under the License.
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-  <string name="app_name">Aniciu CM</string>
+  <string name="app_name">Aniciu MoKee</string>
   <string name="permission_desc_read_extension_data">Permitir que les estensiones de DaskClock soliciten datos</string>
   <string name="permission_label_read_extension_data">Solicitar datos d\'estensiones de DashClock</string>
   <string name="dashclock_activity_not_found_toast_message">Nun s\'atopó la xera prevista pa este estensión. Pa más información contauta col desendolcador.</string>
   <string name="dashclock_card_expand_action">Aición</string>
   <string name="dashclock_card_expand_settings">Axustes</string>
   <string name="no_extensions_card_title">¡Consigui más estensiones!</string>
-  <string name="no_extensions_card_body">Paez que nun tienes denguna estensión instalada. L\'Aniciu CM soporta anguaño les estensiones de DashClock, asina que consigui delles y torna otra vuelta a mirar equí!</string>
+  <string name="no_extensions_card_body">Paez que nun tienes denguna estensión instalada. L\'Aniciu MoKee soporta anguaño les estensiones de DashClock, asina que consigui delles y torna otra vuelta a mirar equí!</string>
 </resources>

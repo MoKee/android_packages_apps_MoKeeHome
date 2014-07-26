@@ -16,10 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-  <string name="app_name">CM Home</string>
+  <string name="app_name">MoKee Home</string>
   <string name="dashclock_activity_not_found_toast_message">L\'activité prévue pour cette extension n\'a pas été trouvée. Veuillez contacter le développeur pour plus d\'informations.</string>
   <string name="dashclock_card_expand_action">Action</string>
   <string name="dashclock_card_expand_settings">Paramètres</string>
   <string name="no_extensions_card_title">Obtenez plus d\'extensions !</string>
-  <string name="no_extensions_card_body">Il semblerait que vous n\'avez aucune extension d\'installée. CM Home prend actuellement en charge les extensions de DashClock, alors allez en récupérer quelques-unes et revenez ici !</string>
+  <string name="no_extensions_card_body">Il semblerait que vous n\'avez aucune extension d\'installée. MoKee Home prend actuellement en charge les extensions de DashClock, alors allez en récupérer quelques-unes et revenez ici !</string>
 </resources>

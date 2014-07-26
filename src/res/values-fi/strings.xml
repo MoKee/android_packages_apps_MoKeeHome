@@ -16,12 +16,12 @@
      limitations under the License.
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-  <string name="app_name">CM Koti</string>
+  <string name="app_name">MoKee Koti</string>
   <string name="permission_desc_read_extension_data">Sallii DashClock-laajennuksen tietojen pyynnöt</string>
   <string name="permission_label_read_extension_data">Pyydä DashClock-laajennuksen tiedot</string>
   <string name="dashclock_activity_not_found_toast_message">Aiottua toimintaa tälle laajennukselle ei löydy. Pyydä lisätietoja kehittäjältä.</string>
   <string name="dashclock_card_expand_action">Tehtävä</string>
   <string name="dashclock_card_expand_settings">Asetukset</string>
   <string name="no_extensions_card_title">Hanki laajennuksia!</string>
-  <string name="no_extensions_card_body">Näyttää siltä, ettet ole asentanut yhtään laajennuksia. CM Koti tukee tällä hetkellä DashClock-laajennuksia, joten käy lataamassa muutama ja tule takaisin!</string>
+  <string name="no_extensions_card_body">Näyttää siltä, ettet ole asentanut yhtään laajennuksia. MoKee Koti tukee tällä hetkellä DashClock-laajennuksia, joten käy lataamassa muutama ja tule takaisin!</string>
 </resources>

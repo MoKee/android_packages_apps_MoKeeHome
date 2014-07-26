@@ -16,12 +16,12 @@
      limitations under the License.
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-  <string name="app_name">CM 桌面</string>
+  <string name="app_name">魔趣桌面</string>
   <string name="permission_desc_read_extension_data">允许读取 DashClock 扩展数据</string>
   <string name="permission_label_read_extension_data">读取 DashClock 扩展数据</string>
   <string name="dashclock_activity_not_found_toast_message">当前扩展的活动行为没有激活，请联系开发人员获得更多信息。</string>
   <string name="dashclock_card_expand_action">动作</string>
   <string name="dashclock_card_expand_settings">设置</string>
   <string name="no_extensions_card_title">获得一些扩展！</string>
-  <string name="no_extensions_card_body">看起来您没有安装任何扩展。CM 桌面目前支持 DashClock 扩展，获得一些扩展并再来查看！</string>
+  <string name="no_extensions_card_body">看起来您没有安装任何扩展。魔趣桌面目前支持 DashClock 扩展，获得一些扩展并再来查看！</string>
 </resources>

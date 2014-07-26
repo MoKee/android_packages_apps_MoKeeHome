@@ -16,12 +16,12 @@
      limitations under the License.
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-  <string name="app_name">CM Home</string>
+  <string name="app_name">MoKee Home</string>
   <string name="permission_desc_read_extension_data">אפשר בקשה לקבלת מידע על הרחבת DashClock</string>
   <string name="permission_label_read_extension_data">בקשת מידע על הרחבת DashClock</string>
   <string name="dashclock_activity_not_found_toast_message">החלון המכוון להרחבה זו לא נמצא. אנה פנה למפתח למידע נוסף.</string>
   <string name="dashclock_card_expand_action">פעולה</string>
   <string name="dashclock_card_expand_settings">הגדרות</string>
   <string name="no_extensions_card_title">קבל כמה הרחבות!</string>
-  <string name="no_extensions_card_body">נראה שאין לך הרחבות מותקנות. CM Home תומל בינתיים בהרחבות DashClock , אז לך והשג כמה וחזור לכאן!</string>
+  <string name="no_extensions_card_body">נראה שאין לך הרחבות מותקנות. MoKee Home תומל בינתיים בהרחבות DashClock , אז לך והשג כמה וחזור לכאן!</string>
 </resources>

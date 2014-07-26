@@ -16,12 +16,12 @@
      limitations under the License.
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-  <string name="app_name">Домашний экран CyanogenMod</string>
+  <string name="app_name">Домашний экран MoKee</string>
   <string name="permission_desc_read_extension_data">Приложение сможет запрашивать данные расширений DashClock.</string>
   <string name="permission_label_read_extension_data">Запрос данных расширений DashClock</string>
   <string name="dashclock_activity_not_found_toast_message">Действие для этого расширения не найдено. Свяжитесь с разработчиками расширения для дополнительных сведений.</string>
   <string name="dashclock_card_expand_action">Действия</string>
   <string name="dashclock_card_expand_settings">Настройки</string>
   <string name="no_extensions_card_title">Установите расширения</string>
-  <string name="no_extensions_card_body">Похоже, расширения не установлены. Домашний экран CM поддерживает расширения DashClock — установите какое-нибудь из них и загляните сюда снова!</string>
+  <string name="no_extensions_card_body">Похоже, расширения не установлены. Домашний экран MoKee поддерживает расширения DashClock — установите какое-нибудь из них и загляните сюда снова!</string>
 </resources>
