@@ -168,6 +168,7 @@ public class HomeStub implements Home {
                     Context.LAYOUT_INFLATER_SERVICE);
             mHomeLayout = (HomeLayout) inflater.inflate(R.layout.home_layout, null);
         }
+        hideUndoBar();
 
         return mHomeLayout;
     }
@@ -344,7 +345,8 @@ public class HomeStub implements Home {
         @Override
         protected void onPostExecute(List<Card> cards) {
             super.onPostExecute(cards);
-            CardListView cardListView = (CardListView) mHomeLayout.findViewById(R.id.mk_home_cards_list);
+            CardListView cardListView =
+                    (CardListView) mHomeLayout.findViewById(R.id.mk_home_cards_list);
 
             if(cardListView != null) {
                 mCardArrayAdapter = new MoKeeHomeCardArrayAdapter(mContext, cards);
