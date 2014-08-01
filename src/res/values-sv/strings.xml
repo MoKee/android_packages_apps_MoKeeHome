@@ -17,11 +17,11 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
   <string name="app_name">MoKee Home</string>
-  <string name="permission_label_read_extension_data">solicitar dados da extensão DashClock</string>
-  <string name="permission_desc_read_extension_data">Permite que a aplicação solicite dados da extensão DashClock</string>
-  <string name="dashclock_activity_not_found_toast_message">A atividade prevista para esta extensão não foi encontrada. Entre em contato com o desenvolvedor para obter mais informações.</string>
-  <string name="dashclock_card_expand_action">Ação</string>
-  <string name="dashclock_card_expand_settings">Configurações</string>
-  <string name="no_extensions_card_title">Obtenha extensões!</string>
-  <string name="no_extensions_card_body">Parece que você não tem quaisquer extensões instaladas. MoKee Home atualmente suporta extensões de DashClock, então obtenha alguma e volte aqui!</string>
+  <string name="permission_label_read_extension_data">begära data från DashClock-tillägg</string>
+  <string name="permission_desc_read_extension_data">Tillåter appen att begära data från DashClock-tillägg</string>
+  <string name="dashclock_activity_not_found_toast_message">Den avsedda åtgärden för det här tillägget hittades inte. Var vänlig kontakta utvecklaren för mer info.</string>
+  <string name="dashclock_card_expand_action">Åtgärd</string>
+  <string name="dashclock_card_expand_settings">Inställningar</string>
+  <string name="no_extensions_card_title">Skaffa tillägg!</string>
+  <string name="no_extensions_card_body">Det ser ut som att du inte har några installerade tillägg. MoKee Home har för närvarande stöd för DashClock-tillägg, så skaffa några sådana och kom tillbaka hit sen!</string>
 </resources>
