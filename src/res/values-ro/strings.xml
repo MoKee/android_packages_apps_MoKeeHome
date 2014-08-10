@@ -16,12 +16,12 @@
      limitations under the License.
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-  <string name="app_name">CM Acasă</string>
+  <string name="app_name">MoKee Acasă</string>
   <string name="permission_label_read_extension_data">Solicitare date extensie DashClock</string>
   <string name="permission_desc_read_extension_data">Permite aplicației solicitarea datelor extensie DashClock</string>
   <string name="dashclock_activity_not_found_toast_message">Activitatea pentru această extensie nu a fost găsită. Pentru mai multe informații, contactați dezvoltatorul aplicației.</string>
   <string name="dashclock_card_expand_action">Acțiune</string>
   <string name="dashclock_card_expand_settings">Setări</string>
   <string name="no_extensions_card_title">Obține extensii!</string>
-  <string name="no_extensions_card_body">Se pare ca nu ai nicio extensie instalată. CM Home acceptă în prezent extensii DashClock, instalați extensii și verificați din nou aici!</string>
+  <string name="no_extensions_card_body">Se pare ca nu ai nicio extensie instalată. MoKee Home acceptă în prezent extensii DashClock, instalați extensii și verificați din nou aici!</string>
 </resources>
