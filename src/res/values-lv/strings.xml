@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-  <string name="app_name">CM mājas</string>
+  <string name="app_name">MoKee mājas</string>
   <string name="permission_label_read_extension_data">pieprasīt DashClock paplašinājuma datus</string>
   <string name="permission_desc_read_extension_data">Ļauj lietotnei pieprasīt DashClock paplašinājuma datus</string>
   <string name="dashclock_activity_not_found_toast_message">Šim paplašinājumam paredzētā darbība netika atrasta. Lūdzu, sazinieties ar izstrādātāju, lai iegutu papildu informāciju.</string>

@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-  <string name="app_name">CM Əsas Ekran</string>
+  <string name="app_name">MoKee Əsas Ekran</string>
   <string name="permission_label_read_extension_data">DashClock əlavə verilənini istə</string>
   <string name="permission_desc_read_extension_data">Tətbiqetmənin DashClock əlavə verilənini istəməsinə icazə verər</string>
   <string name="dashclock_card_expand_action">Hərəkət</string>
