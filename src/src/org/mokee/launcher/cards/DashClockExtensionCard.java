@@ -12,7 +12,6 @@ import android.graphics.Canvas;
 import android.graphics.ColorMatrixColorFilter;
 import android.graphics.Paint;
 import android.net.Uri;
-import android.os.ParcelFileDescriptor;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -28,6 +27,7 @@ import org.mokee.launcher.dashclock.ExtensionManager;
 import org.mokee.launcher.home.R;
 
 import java.io.FileNotFoundException;
+import java.io.InputStream;
 
 import it.gmariotti.cardslib.library.internal.Card;
 import it.gmariotti.cardslib.library.internal.CardExpand;
@@ -236,7 +236,10 @@ public class DashClockExtensionCard extends Card {
                 mImageSource = Integer.toString(mExtensionData.icon());
             }
             // Return an all white (leaving alpha alone) version of the icon.
-            return applyWhiteColorFilter(bitmapToReturn);
+            if (bitmapToReturn != null) {
+                bitmapToReturn = applyWhiteColorFilter(bitmapToReturn);
+            }
+            return bitmapToReturn;
         }
 
         private void updateImageSource() {
@@ -282,11 +285,11 @@ public class DashClockExtensionCard extends Card {
         }
 
         private Bitmap getBitmapFromUri(Uri uri) {
-            ParcelFileDescriptor iconFd;
+            InputStream inputStream;
             Bitmap icon = null;
             try {
-                iconFd = mContext.getContentResolver().openFileDescriptor(uri, "r");
-                icon = BitmapFactory.decodeFileDescriptor(iconFd.getFileDescriptor());
+                inputStream = mContext.getContentResolver().openInputStream(uri);
+                icon = BitmapFactory.decodeStream(inputStream);
             } catch (FileNotFoundException e) {
                 Log.w(TAG, "DashClock icon could not be loaded: " + uri);
             }
